@@ -1,7 +1,15 @@
 MAX_PREAMBLE_ID = 64
 
-# Initialize g_si_configured_rapid similar to the C code
-g_si_configured_rapid = [64] * MAX_PREAMBLE_ID
+g_si_configured_rapid = [
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64,
+    64, 64, 64, 64, 64, 64, 64, 64
+]
 
 def rapid_only(rapid):
     """
